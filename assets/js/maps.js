@@ -22,5 +22,5 @@ function initMap() {
         });
     });
 
-    var markercluster = new markercluster(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    var markercluster = new MarkerClusterer(map, markers, {imagePath:'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 }
